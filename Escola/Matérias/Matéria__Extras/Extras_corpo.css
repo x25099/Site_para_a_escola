@@ -1,0 +1,127 @@
+.corpo{
+    background-image: url('/index__img/imagem_fundo_extras1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpo__texto{
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    margin-right: 1.2vw;
+    padding-top: 6vh;
+    text-shadow: 2px 3px 1px black;
+    font-size: 1.5em;
+    padding-bottom: 6vh;
+} 
+
+.corpo__texto2{
+    display:none;
+}
+
+.corpo2{
+    background-image: url('/index__img/imagem_fundo_extras2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpo2__lista{
+    align-items: center;
+    text-align: justify;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.lista__botão{
+    display: inline-block;
+    padding: 1em 0.5em;
+}
+
+.botão{
+    font-size: 1.5em;
+    border: 3px solid;
+    border-image: linear-gradient(#8A2BE2, #9370DB, #9400D3)1;
+    width: 45vw;
+    background-color: black;
+    color: white;
+    height: 3em;
+    text-decoration-line: underline;
+    text-decoration-color:white;
+}
+
+.botão:active{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    color: black;
+}
+
+.lista__link{
+    text-decoration: none;
+}
+
+
+.botão__udemy:active{
+    background-color: #1EFF34;
+}
+
+.botão__khan-academy:active{
+    background-color: #AE01FF;
+}
+
+.botão__edx:active{
+    background-color: #40E0D0;
+}
+
+.botão__udacity:active{
+    background-color: #040EFF;
+}
+
+.botão__coursera:active{
+    background-color:#FF09F5;
+}
+
+.botão__duolingo:active{
+    background-color:#7FFF00;
+}
+
+.botão__veduca:active{
+    background-color: #FF4500;
+}
+
+.botão__página-principal:active{
+    background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .corpo{
+        background-image: url('/index__img/imagem_fundo_desktop_extras1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .corpo__texto{
+        display:none;
+    }
+
+    .corpo__texto2{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-right: 1.2vw;
+        padding-top: 6vh;
+        text-shadow: 2px 3px 1px black;
+        padding-bottom: 6vh;
+        font-size: 2.5em;
+        color: #FF9900;
+    }
+
+    .corpo2{
+        background-image: url('/index__img/imagem_fundo_desktop_extras2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .botão{
+        border-image: linear-gradient(#FF4500, #FF8C00, #FFA500)1;
+    }
+}

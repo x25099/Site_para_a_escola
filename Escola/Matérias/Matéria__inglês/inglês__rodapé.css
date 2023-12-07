@@ -1,0 +1,25 @@
+.rodapé{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#FFFFFF, #F60926);
+    align-items: center;
+    text-align: center;
+}
+
+.rodapé__criador{
+    padding-top: 6vh;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .rodapé{
+        background-image: linear-gradient(#FFFFFF, #030DFF, #FF0000);
+    }
+
+    .rodapé__criador{
+        font-size: 3em;
+        color: white;
+        padding: 1em 0;
+    }
+
+}

@@ -1,0 +1,126 @@
+.corpo{
+    background-image: url('/index__img/imagem_fundo_pensamento-computacional1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpo__texto{
+    color: #1EBBFF;
+    text-align: center;
+    justify-content: center;
+    margin-right: 1.2vw;
+    padding-top: 6vh;
+    text-shadow: 2px 3px 1px black;
+    font-size: 1.5em;
+    padding-bottom: 6vh;
+} 
+
+.corpo__texto2{
+    display: none;
+}
+
+.corpo2{
+    background-image: url('/index__img/imagem_fundo_pensamento-computacional2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpo2__lista{
+    align-items: center;
+    text-align: justify;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.lista__botão{
+    display: inline-block;
+    padding: 1em 0.5em;
+}
+
+.botão{
+    font-size: 1.5em;
+    border: 3px solid;
+    border-image: linear-gradient(#4682B4, #00BFFF, #87CEFA)1;
+    width: 45vw;
+    background-color: black;
+    color: white;
+    height: 3em;
+    display: block;
+    text-decoration-line: underline;
+    text-decoration-color:white;
+}
+
+.botão:active{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    color: black;
+}
+
+.lista__link{
+    text-decoration: none;
+}
+
+.botão__classroom:active{
+    background-color: #1EFF34;
+}
+
+.botão__alura:active{
+    background-color: #00FFD1;
+}
+
+.botão__chatGPT:active{
+    background-color: #FA00FF;
+}
+
+.botão__udemy:active{
+    background-color: #000AFF;
+}
+
+.botão__visual-studio:active{
+    background-color: #0BFF8A;
+}
+
+.botão__extras:active{
+    background-image: linear-gradient(#FF8A00, #DBFF00, #FF002E);
+}
+
+.botão__deep-ai:active{
+    background-color: palevioletred;    
+}
+
+.botão__gmail:active{
+    background-color: red;    
+}
+.botão__página-principal:active{
+    background-color: white;    
+}
+
+@media screen and (min-width: 1024px) {
+    .corpo{
+        background-image: url('/index__img/imagem_fundo_desktop_pensamento-computacional1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .corpo__texto{
+        display: none;
+    }
+
+    .corpo__texto2{
+        display:block;
+        color: #1EBBFF;
+        text-align: center;
+        justify-content: center;
+        margin-right: 1.2vw;
+        padding-top: 6vh;
+        text-shadow: 2px 3px 1px black;
+        padding-bottom: 6vh;
+        font-size: 2.5em;
+    }
+
+    .corpo2{
+        background-image: url('/index__img/imagem_fundo_desktop_pensamento-computacional2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
