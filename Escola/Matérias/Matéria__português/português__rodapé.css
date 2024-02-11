@@ -1,13 +1,13 @@
 .rodapé{
     width: 100%;
-    height: 100%;
+    height: 14vh;
     background-image: linear-gradient(#FFFFFF, #0EF609);
     align-items: center;
     text-align: center;
 }
 
 .rodapé__criador{
-    padding-top: 6vh;
+    padding-top: 5vh;
 }
 
 
@@ -15,7 +15,11 @@
     .rodapé__criador{
         color: white;
         font-size: 3em;
-        padding: 1em 0;
+        padding-top: 8vh;
+    }
+
+    .rodapé{
+        height: 20vh;
     }
 
 }

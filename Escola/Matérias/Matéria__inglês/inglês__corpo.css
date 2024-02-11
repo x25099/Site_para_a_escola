@@ -1,18 +1,18 @@
 .corpo{
-    background-image: url('/index__img/imagem_fundo_inglês1.png');
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .corpo__texto{
-    color: #FF1E1E;
+    color: white;
     text-align: center;
     justify-content: center;
     margin-right: 1.2vw;
     padding-top: 6vh;
-    text-shadow: 2px 3px 1px black;
+    text-shadow: 1px 1px 3px #F60926;
     font-size: 1.5em;
-    padding-bottom: 8vh;
+    padding-bottom: 6vh;
 } 
 
 .corpo__texto2{
@@ -101,13 +101,13 @@
         justify-content: center;
         margin-right: 1.2vw;
         padding-top: 6vh;
-        text-shadow: 2px 3px 1px black;
+        text-shadow: 2px 3px 5px black;
         padding-bottom: 8vh;
         display: block;
         padding-top: 25vh;
         padding-bottom: 25vh;
         font-size: 2.5em;
-        color: #FF0000;
+        color: white;
     }
 
     .corpo2{
@@ -119,4 +119,40 @@
     .corpo2__lista{
         padding: 10vh 0;
     }
+
+    .container {
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+  
+      .spark {
+        position: fixed;
+        width: 6px;
+        height: 6px;
+        background-image:linear-gradient(#FF0000, #0047FF, #FFFFFF);
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 1000;
+        opacity: 0;
+        animation: sparkle 0.5s linear infinite;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+  
+      @keyframes sparkle {
+        0% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(3);
+        }
+    }
+    .botão:hover{
+        background-color: white;
+        color: black;
+      }
 }
